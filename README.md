@@ -1,14 +1,18 @@
-# PHP Starter Overview
+Twitter-Sentiment-Analysis
+==========================
 
-The PHP Starter demonstrates a simple, reusable PHP web application.
+This tool is written in PHP and it performs Sentiment Analysis on Twitter messages by using the Datumbox API 1.0v.
 
-## Run the app locally
+To read more about how it works, how it should be configured etc check out the original blog post: 
+http://blog.datumbox.com/how-to-build-your-own-twitter-sentiment-analysis-tool/
 
-1. Download and extract [PHP][]
-2. Add the extracted directory to your PATH environment variable
-3. Download and extract the starter code from the Bluemix UI
-4. cd into the app directory
-5. Run `php -S localhost:8000` to start the app using the built-in development web server
-6. Access the running app in a browser at http://localhost:8000
+Useful Links
+============
 
-[PHP]: http://php.net/downloads.php
+Download API Documentation and Code Samples: http://www.datumbox.com/machine-learning-api/
+
+Sign-up for free API Key: http://www.datumbox.com/users/register/
+
+View your API Key: http://www.datumbox.com/apikeys/view/
+
+PHP Twitter API Client: https://github.com/timwhitlock/php-twitter-api
