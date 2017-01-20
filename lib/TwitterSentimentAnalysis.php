@@ -1,6 +1,6 @@
 <?php
-include_once(dirname(__FILE__).'/DatumboxAPI.php');
-include_once(dirname(__FILE__).'/twitter-client.php');
+require_once dirname(__FILE__).'/DatumboxAPI.php';
+require_once dirname(__FILE__).'/twitter-client.php';
 class TwitterSentimentAnalysis {
     
     protected $datumbox_api_key; //Your Datumbox API Key. Get it from http://www.datumbox.com/apikeys/view/
